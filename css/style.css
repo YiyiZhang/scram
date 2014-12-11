@@ -1,0 +1,169 @@
+/*/////////////////FONTS/////////////////*/
+
+@font-face {
+	font-family: 'Nevis';
+	src: url(../fonts/nevis.ttf);
+}
+
+@font-face {
+	font-family: 'Neutra';
+	src: url(../fonts/NeutraDisp-Medium.otf);
+}
+
+*{
+	font-family: 'Nevis', Arial, sans-serif;
+}
+
+/*LAYOUT*/
+
+html {
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #FBAF3F;
+	background-image: url('../images/texture.png');
+	min-height: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+
+.middleify {
+	font-family: 'Nevis', Arial, sans-serif;
+	margin: auto;
+	background: url('../images/background.jpg') no-repeat;
+	background-size: cover;
+	height: 80%;
+	position: relative;
+	color: #C4E9F9; /*weirdbluewhite*/
+	box-shadow: 2px 3px 4px 1px #895F27;
+	border-radius: 5px;
+}
+
+h1 {
+	font-family: 'Nevis', Arial, sans-serif;
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+p {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: 'Neutra', Arial, sans-serif;
+}
+
+/*/////////////////NAVIGATION/////////////////*/
+
+.menuarea {
+	background-color: #C4E9F9; /*weirdbluewhite*/
+	width: 100%;
+	height: 50px;
+	opacity: 0.6;
+	margin-top: -20px;
+}
+
+nav.navbar a {
+	position: relative;
+	height: 50px;
+	width: 10%;
+	float: right;
+	color: brown;
+	text-decoration: none;
+	font-family: 'Nevis', Arial, sans-serif;
+	z-index: 2;
+}
+
+nav.navbar a:hover {
+	color: white;
+	display: inline;	
+}
+
+/*/////////////////LOGO/////////////////*/
+
+.logo img {
+	position: relative;
+	padding-left: 10px;
+	padding-top: 10px;
+	z-index: 2;
+}
+
+/*/////////////////FOOTER/////////////////*/
+
+footer {
+	font-family: 'Neutra', Arial, sans-serif;
+	font-size: 20px;
+	margin: auto;
+	text-align:center;
+	height: 15%;
+	margin-top: 15px;
+	color: #C4E9F9; /*weirdbluewhite*/
+	background-image: url('../images/footer.png');
+	background-size: cover;
+	box-shadow: 2px 3px 4px 1px #895F27;
+	border-radius: 5px;
+}
+
+footer h1 {
+	font-family: 'Neutra', Arial, sans-serif;
+	color: #F7931D;
+	font-size: 15px;
+}
+
+.col-33 {
+	width: 20%;
+	max-width: 20%;
+	margin-left: 10%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.col-33 p {
+	font-family: 'Neutra', Arial, sans-serif;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+.marginless {
+	margin-left: 0;
+}
+
+/*/////////////////RESPONSIVE/////////////////*/
+
+@media only screen and (max-width: 900px ) {
+	nav.navbar a {
+		font-size: 0.8em;
+	}
+}
+
+
+/*//ANIMATION REFER TO: http://www.w3schools.com/css/css3_animations.asp//*/
+
+.animatedpanel {
+    height: 30px;
+    width: 15%;
+    display: block;
+    background: orange;
+    vertical-align: center;
+}
+
+.animatedpanel:hover {
+    -webkit-animation: panelmation 5s; /* Chrome, Safari, Opera */
+    animation: panelmation 5s;
+    height: 50px;
+    display: block;
+    background: orange;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes panelmation {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+/* Standard syntax */
+@keyframes panelmation {
+    from {background: red;}
+    to {background: yellow;}
+}
