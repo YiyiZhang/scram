@@ -139,12 +139,11 @@ footer h1 {
 
 /*//ANIMATION REFER TO: http://www.w3schools.com/css/css3_animations.asp//*/
 
-.animatedcontainer {
-	width: 15%;
+.animatedcontainer1 {
 	display: inline-block;
 }
 
-.animatedpanel {
+.animatedpanel1 {
 	position: absolute; /*fixed is always in relation to browser window*/
 	bottom: 0;
     height: 30px;
@@ -152,11 +151,46 @@ footer h1 {
     background: orange;
 }
 
-.animatedpanel:hover {
+.animatedpanel1:hover {
    /* -webkit-animation: panelmation 5s; Chrome, Safari, Opera */
    /* animation: panelmation 5s;*/
     background: green;
 }
+
+.animatedcontainer2 {
+	display: inline-block;
+}
+
+.animatedpanel2 {
+	position: absolute; /*fixed is always in relation to browser window*/
+	bottom: 0;
+	left: 15%;
+    height: 30px;
+    width: 15%;
+    background: orange;
+}
+
+.animatedpanel2:hover {
+    background: green;
+}
+
+.animatedcontainer3 {
+	display: inline-block;
+}
+
+.animatedpanel3 {
+	position: absolute; /*fixed is always in relation to browser window*/
+	bottom: 0;
+	left: 30%;
+    height: 30px;
+    width: 15%;
+    background: orange;
+}
+
+.animatedpanel3:hover {
+    background: green;
+}
+
 
 /* Chrome, Safari, Opera
 @-webkit-keyframes panelmation {
