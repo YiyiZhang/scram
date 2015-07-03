@@ -137,9 +137,9 @@ footer h1 {
 }
 
 
-/*//ANIMATION REFER TO: http://www.w3schools.com/css/css3_animations.asp//*/
+/*//ANIMATED PANELS*//
 
-.animatedcontainer1 {
+.animatedcontainer1 .animatedcontainer2 .animatedcontainer3 {
 	display: inline-block;
 }
 
@@ -148,17 +148,15 @@ footer h1 {
 	bottom: 0;
     height: 30px;
     width: 15%;
-    background: orange;
+    background: #8CC63E;/*lightgreen*/
+	padding-left: 10px;
+    overflow: hidden;
 }
 
 .animatedpanel1:hover {
    /* -webkit-animation: panelmation 5s; Chrome, Safari, Opera */
    /* animation: panelmation 5s;*/
-    background: green;
-}
-
-.animatedcontainer2 {
-	display: inline-block;
+    background: #006738;/*darkgreen*/
 }
 
 .animatedpanel2 {
@@ -167,15 +165,14 @@ footer h1 {
 	left: 15%;
     height: 30px;
     width: 15%;
-    background: orange;
+    background: #8CC63E;/*lightgreen*/
+	padding-left: 10px;
+	overflow: hidden;
+    /*border-left: #C4E9F9 solid 1px;*/
 }
 
 .animatedpanel2:hover {
-    background: green;
-}
-
-.animatedcontainer3 {
-	display: inline-block;
+    background: #006738;/*darkgreen*/
 }
 
 .animatedpanel3 {
@@ -184,11 +181,14 @@ footer h1 {
 	left: 30%;
     height: 30px;
     width: 15%;
-    background: orange;
+    background: #8CC63E;/*lightgreen*/
+	padding-left: 10px;
+	overflow: hidden;
+    /*border-left: #C4E9F9 solid 1px;*/
 }
 
 .animatedpanel3:hover {
-    background: green;
+    background: #006738;/*darkgreen*/
 }
 
 

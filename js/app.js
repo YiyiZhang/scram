@@ -4,7 +4,7 @@ $(function(){
 	$(".animatedcontainer1").hover(
 		function(){//mousein
 			$(".animatedpanel1").animate(
-				{height: "30%"},600)
+				{height: "40%"},600)
 			},
 		function(){//mouseout
 			$(".animatedpanel1").animate(
@@ -14,7 +14,7 @@ $(function(){
 	$(".animatedcontainer2").hover(
 		function(){//mousein
 			$(".animatedpanel2").animate(
-				{height: "30%"},600)
+				{height: "40%"},600)
 			},
 		function(){//mouseout
 			$(".animatedpanel2").animate(
@@ -24,7 +24,7 @@ $(function(){
 	$(".animatedcontainer3").hover(
 		function(){//mousein
 			$(".animatedpanel3").animate(
-				{height: "30%"},600)
+				{height: "40%"},600)
 			},
 		function(){//mouseout
 			$(".animatedpanel3").animate(
